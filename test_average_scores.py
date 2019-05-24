@@ -7,9 +7,11 @@ Created on Fri May 24 21:32:47 2019
 """
 
 import sqlite3
+import sys
 
 my_names=[]
-conn = sqlite3.connect('test2.db') 
+database_name = sys.argv[1]
+conn = sqlite3.connect(database_name) 
 c = conn.cursor()
             
 def create_test_average_scores_database():
