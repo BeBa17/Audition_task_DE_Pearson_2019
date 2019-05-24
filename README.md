@@ -16,4 +16,4 @@ To use this script you should type: ./to_csv.py database_name.db table_name
 As a result you have table_name table converted to the csv file format.
 
 File all.py realises all scripts in order. As a result you get database .db with tables: test_file, test_level_file and class_file and new tables: test_utilization_file and test_average_scores_file. You get also the new ones databases in csv-file form.
-To use this script you should type: ./all.py database_name.db
+To use this script you should type: ./all.py database_name.db 
