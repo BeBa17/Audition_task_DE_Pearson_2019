@@ -6,9 +6,11 @@ Created on Fri May 24 21:28:15 2019
 @author: beata
 """
 import sqlite3
+import sys
 
 my_names=[]
-conn = sqlite3.connect('test2.db') 
+database_name = sys.argv[1]
+conn = sqlite3.connect(database_name) 
 c = conn.cursor()
 
 def create_test_utilization_database():
